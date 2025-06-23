@@ -1,0 +1,44 @@
+<types>
+
+    <type id="nature" name="Yaourt Nature">
+        <steps>
+            <step id="MISE_EN_PLACE_POT" description="Mise en place du pot" time_s="5"/>
+            <step id="INJECTION_YAOURT" description="Injection du yaourt" time_s="3"/>
+            <step id="FERMETURE_POT" description="Fermeture du port" time_s="5"/>
+            <step id="EJECT" description="Ejection" time_s="5"/>
+        </steps>
+    </type>
+
+    <type id="vanilla" name="Yaourt Vanille">
+        <steps>
+            <step id="MISE_EN_PLACE_POT" description="Mise en place du pot" time_s="5"/>
+            <step id="INJECTION_YAOURT" description="Injection du yaourt" time_s="3"/>
+            <step id="VANILLE" description="Ajout de vanille" time_s="6"/>
+            <step id="FERMETURE_POT" description="Fermeture du port" time_s="5"/>
+            <step id="EJECT" description="Ejection" time_s="5"/>
+        </steps>
+    </type>
+
+    <type id="vanilla_brass" name="Yaourt Vanille Brassé">
+        <steps>
+            <step id="MISE_EN_PLACE_POT" description="Mise en place du pot" time_s="5"/>
+            <step id="INJECTION_YAOURT" description="Injection du yaourt" time_s="3"/>
+            <step id="VANILLE" description="Ajout de vanille" time_s="6"/>
+            <step id="BRASSAGE" description="Brassage du yaourt" time_s="2"/>
+            <step id="FERMETURE_POT" description="Fermeture du port" time_s="5"/>
+            <step id="EJECT" description="Ejection" time_s="5"/>
+        </steps>
+    </type>
+
+    <type id="fruit_rouge_brass" name="Yaourt Fruits Rouge Brassé">
+        <steps>
+            <step id="MISE_EN_PLACE_POT" description="Mise en place du pot" time_s="5"/>
+            <step id="INJECTION_YAOURT" description="Injection du yaourt" time_s="3"/>
+            <step id="FRUIT_ROUGE" description="Fruit rouge" time_s="3"/>
+            <step id="BRASSAGE" description="Brassage du yaourt" time_s="2"/>
+            <step id="FERMETURE_POT" description="Fermeture du port" time_s="5"/>
+            <step id="EJECT" description="Ejection" time_s="5"/>
+        </steps>
+    </type>
+
+</types>

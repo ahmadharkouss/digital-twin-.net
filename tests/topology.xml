@@ -1,0 +1,38 @@
+<topology>
+
+    <!-- Mise en place du pot -->
+    <step id="MISE_EN_PLACE_POT" next="INJECTION_YAOURT" capacity="6"/>
+
+    <!-- Injection du yaourt -->
+    <step id="INJECTION_YAOURT" next="EXCHANGE_TYPE" capacity="2"/>
+
+    <!-- Exchange TYPE -->
+    <exchange id="EXCHANGE_TYPE" time_s="0.2">
+        <connection id="FRUIT_ROUGE" />
+        <connection id="VANILLE" /> 
+        <connection id="BRASSAGE" /> 
+        <connection id="FERMETURE_POT" /> 
+    </exchange>
+
+    <!-- Ajout de vanille -->
+    <step id="VANILLE" next="EXCHANGE_BRASSAGE" capacity="1"/>
+
+    <!-- Ajout de fruit rouge -->
+    <step id="FRUIT_ROUGE" next="EXCHANGE_BRASSAGE" capacity="1"/>
+
+    <!-- Exchange BRASSAGE -->
+    <exchange id="EXCHANGE_BRASSAGE" time_s="0.2">
+        <connection id="BRASSAGE" />
+        <connection id="FERMETURE_POT" />
+    </exchange>
+
+    <!-- Brassage du yaourt -->
+    <step id="BRASSAGE" next="FERMETURE_POT" capacity="1"/>
+    
+    <!-- FERMETURE POT -->
+    <step id="FERMETURE_POT" next="EJECT" capacity="4"/>
+
+    <!-- EJECTION -->
+    <step id="EJECT" next="end" capacity="2" />
+
+</topology>

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "y0gfyt1ILwk=",
+  "success": true,
+  "projectFilePath": "/Users/ahmadharkous/Desktop/cv/projects/digital-twin-simu/digital-twin-.net/Satisfactory/Satisfactory/Satisfactory.csproj",
+  "expectedPackageFiles": [
+    "/Users/ahmadharkous/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512",
+    "/Users/ahmadharkous/.nuget/packages/quickgraph/3.6.61119.7/quickgraph.3.6.61119.7.nupkg.sha512",
+    "/Users/ahmadharkous/.nuget/packages/microsoft.netcore.app.ref/8.0.17/microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "/Users/ahmadharkous/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.17/microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512",
+    "/Users/ahmadharkous/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.17/microsoft.netcore.app.host.osx-arm64.8.0.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'QuickGraph 3.6.61119.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/ahmadharkous/Desktop/cv/projects/digital-twin-simu/digital-twin-.net/Satisfactory/Satisfactory/Satisfactory.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/ahmadharkous/Desktop/cv/projects/digital-twin-simu/digital-twin-.net/Satisfactory/Satisfactory/Satisfactory.csproj",
+      "libraryId": "QuickGraph",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

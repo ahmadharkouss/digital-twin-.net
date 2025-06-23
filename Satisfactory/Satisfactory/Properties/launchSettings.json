@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Satisfactory": {
+      "commandName": "Project",
+      "commandLineArgs": "--input \"input.xml\"\r\n--topology \"topology.xml\"\r\n--types \"types.xml\"\r\n--output \"output.xml\""
+    }
+  }
+}
