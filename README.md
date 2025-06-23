@@ -1,4 +1,4 @@
-Le projet est en .NET8.0
+.NET8.0
 
 # Manufacturing Sort Project
 
